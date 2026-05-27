@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Edgar Vigueras</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Edgar Vigueras</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h2 id=&#34;perfil&#34;&gt;Perfil&lt;/h2&gt;
+&lt;p&gt;Senior Java Developer con experiencia en sistemas financieros, FIX, ActiveMQ, Oracle, Linux y procesamiento de datos de mercado.&lt;/p&gt;
+&lt;h2 id=&#34;tecnologías&#34;&gt;Tecnologías&lt;/h2&gt;
+&lt;p&gt;Java 17, Spring Boot, QuickFIX/J, ActiveMQ, Oracle, SQL Server, Linux, Docker/Podman.&lt;/p&gt;
+&lt;h2 id=&#34;experiencia&#34;&gt;Experiencia&lt;/h2&gt;
+&lt;h3 id=&#34;grupo-sci&#34;&gt;Grupo SCI&lt;/h3&gt;
+&lt;p&gt;Desarrollo de sistemas financieros, conectividad FIX, mensajería y procesamiento de mercado.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proyectos</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h2 id=&#34;sidenlacemulticastbiva&#34;&gt;SIDEnlaceMulticastBIVA&lt;/h2&gt;
+&lt;p&gt;Sistema Java para recepción multicast, MoldUDP64, ITCH, RTX, order book y publicación por ActiveMQ.&lt;/p&gt;
+&lt;h2 id=&#34;enlacefix&#34;&gt;EnlaceFIX&lt;/h2&gt;
+&lt;p&gt;Bridge FIX con QuickFIX/J, ActiveMQ, monitoreo de sesión y rechazo offline configurable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

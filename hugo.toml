@@ -1,0 +1,35 @@
+baseURL = "https://Naraku86.github.io/"
+languageCode = "es-mx"
+title = "Edgar Vigueras"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+
+[params.profileMode]
+  enabled = true
+  title = "Edgar Vigueras"
+  subtitle = "Senior Java Developer | FIX | ActiveMQ | Oracle | BIVA"
+  imageUrl = ""
+  imageTitle = ""
+
+[[params.profileMode.buttons]]
+  name = "CV"
+  url = "/cv/"
+
+[[params.profileMode.buttons]]
+  name = "Proyectos"
+  url = "/projects/"
+
+[[params.profileMode.buttons]]
+  name = "GitHub"
+  url = "https://github.com/Naraku86"
+
+[[params.profileMode.buttons]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/"
+
+
