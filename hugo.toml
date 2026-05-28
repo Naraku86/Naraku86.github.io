@@ -3,33 +3,116 @@ languageCode = "es-mx"
 title = "Edgar Vigueras"
 theme = "PaperMod"
 
+[pagination]
+pagerSize = 10
+
 [params]
-  defaultTheme = "dark"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = false
+
+defaultTheme = "dark"
+disableThemeToggle = false
+
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = false
+
+description = "Senior Software Engineer especializado en Sistemas Financieros, Trading Electrónico, Market Data y Arquitectura de Software."
 
 [params.profileMode]
-  enabled = true
-  title = "Edgar Vigueras"
-  subtitle = "Senior Java Developer | FIX | ActiveMQ | Oracle | BIVA"
-  imageUrl = ""
-  imageTitle = ""
+enabled = true
+
+title = "Edgar Vigueras"
+
+subtitle = """
+Financial Systems • Market Data • Trading Technology • Software Architecture
+
+Ingeniero de Software Senior con más de 15 años de experiencia en el diseño e integración de sistemas financieros de misión crítica.
+
+Especializado en trading electrónico, market data, conectividad financiera, mensajería empresarial y arquitecturas de alta disponibilidad.
+
+Apasionado por la tecnología, la innovación y la vida en el campo.
+"""
+
+imageUrl = "img/profile.jpg"
+imageTitle = "Edgar Vigueras"
+
+imageWidth = 220
+imageHeight = 220
 
 [[params.profileMode.buttons]]
-  name = "CV"
-  url = "/cv/"
+name = "CV"
+url = "/cv/"
 
 [[params.profileMode.buttons]]
-  name = "Proyectos"
-  url = "/projects/"
+name = "Proyectos"
+url = "/projects/"
 
 [[params.profileMode.buttons]]
-  name = "GitHub"
-  url = "https://github.com/Naraku86"
+name = "Acerca de mí"
+url = "/about/"
 
 [[params.profileMode.buttons]]
-  name = "LinkedIn"
-  url = "https://linkedin.com/in/"
+name = "GitHub"
+url = "https://github.com/Naraku86"
+
+[[params.profileMode.buttons]]
+name = "Telegram"
+url = "https://t.me/edgarvigueras"
+
+[params.assets]
+favicon = "favicon.ico"
+favicon16x16 = "favicon.ico"
+favicon32x32 = "favicon.ico"
+apple_touch_icon = "favicon.ico"
+
+[params.homeInfoParams]
+Title = "Edgar Vigueras"
+Content = "Senior Software Engineer"
+
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/cv/"
+weight = 10
+
+[[menu.main]]
+identifier = "projects"
+name = "Proyectos"
+url = "/projects/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "Acerca de mí"
+url = "/about/"
+weight = 30
+
+[[menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/Naraku86"
+weight = 40
+
+[[menu.main]]
+identifier = "telegram"
+name = "Telegram"
+url = "https://t.me/EdgarVigueras"
+weight = 50
+
+[markup]
+
+[markup.goldmark]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+lineNos = false
+codeFences = true
+guessSyntax = true
+style = "monokai"
 
 
